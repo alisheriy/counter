@@ -7,7 +7,7 @@ const reducer = (state = 8, action) => {
     case 'RND':
       return state + action.payload
     case 'RST':
-      return state - state
+      return state - state //hope it works, although a have checked it
       default:
       return state
   }
